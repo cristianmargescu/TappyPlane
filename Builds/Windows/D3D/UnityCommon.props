@@ -1,0 +1,8 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <UnityInstallationDir>E:\Development\Unity application Block\Editor</UnityInstallationDir>
+        <UnityWSAPlayerDir>E:\Development\Unity application Block\Editor\Data\PlaybackEngines\MetroSupport</UnityWSAPlayerDir>
+        <UnityWSAToolsDir>$(SolutionDir)Unity\Tools</UnityWSAToolsDir>
+        <UnityProjectDir>E:\Development\Git\Unity Apps\TappyPlane</UnityProjectDir>
+    </PropertyGroup>
+</Project>

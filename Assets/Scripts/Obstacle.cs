@@ -8,7 +8,7 @@ public class Obstacle : MonoBehaviour
 	// Use this for initialization
 	void Start()
 	{
-		rigidbody2D.velocity = velocity;
+		GetComponent<Rigidbody2D>().velocity = velocity;
 		transform.position = new Vector3(transform.position.x, transform.position.y - range * Random.value, transform.position.z);
 	}
 }

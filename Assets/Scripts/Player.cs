@@ -12,8 +12,8 @@ public class Player : MonoBehaviour
 		// Jump
 		if (Input.GetKeyUp("space"))
 		{
-			rigidbody2D.velocity = Vector2.zero;
-			rigidbody2D.AddForce(jumpForce);
+			GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+			GetComponent<Rigidbody2D>().AddForce(jumpForce);
 		}
 		
 		// Die by being off screen
