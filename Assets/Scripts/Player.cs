@@ -15,6 +15,12 @@ public class Player : MonoBehaviour
 			GetComponent<Rigidbody2D>().velocity = Vector2.zero;
 			GetComponent<Rigidbody2D>().AddForce(jumpForce);
 		}
+		//Jump touch
+		if(Input.GetMouseButtonDown(0))
+		{
+			GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+			GetComponent<Rigidbody2D>().AddForce(jumpForce);
+		}
 		
 		// Die by being off screen
 		Vector2 screenPosition = Camera.main.WorldToScreenPoint(transform.position);

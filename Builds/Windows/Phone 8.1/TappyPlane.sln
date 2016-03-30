@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A513B19-3E02-41BF-8968-58BC58B0A6B3}") = "TappyPlane", "TappyPlane\TappyPlane.csproj", "{9A513B19-3E02-41BF-8968-58BC58B0A6B3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{868B923C-02F0-4A30-8DAC-EF535B925512} = {868B923C-02F0-4A30-8DAC-EF535B925512}
+		{ADFB0A45-634B-4F18-978D-8A14B327DF9B} = {ADFB0A45-634B-4F18-978D-8A14B327DF9B}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-windows-phone-8.1", "D:\Development\TappyPlane\Assembly-CSharp-windows-phone-8.1.csproj", "{868B923C-02F0-4A30-8DAC-EF535B925512}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-firstpass-windows-phone-8.1", "D:\Development\TappyPlane\Assembly-CSharp-firstpass-windows-phone-8.1.csproj", "{ADFB0A45-634B-4F18-978D-8A14B327DF9B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|x86 = Debug|x86
+		Master|ARM = Master|ARM
+		Master|x86 = Master|x86
+		Release|ARM = Release|ARM
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A513B19-3E02-41BF-8968-58BC58B0A6B3}.Debug|ARM.ActiveCfg = Debug|ARM
+		{9A513B19-3E02-41BF-8968-58BC58B0A6B3}.Debug|ARM.Build.0 = Debug|ARM
+		{9A513B19-3E02-41BF-8968-58BC58B0A6B3}.Debug|ARM.Deploy.0 = Debug|ARM
+		{9A513B19-3E02-41BF-8968-58BC58B0A6B3}.Debug|x86.ActiveCfg = Debug|x86
+		{9A513B19-3E02-41BF-8968-58BC58B0A6B3}.Debug|x86.Build.0 = Debug|x86
+		{9A513B19-3E02-41BF-8968-58BC58B0A6B3}.Debug|x86.Deploy.0 = Debug|x86
+		{9A513B19-3E02-41BF-8968-58BC58B0A6B3}.Master|ARM.ActiveCfg = Master|ARM
+		{9A513B19-3E02-41BF-8968-58BC58B0A6B3}.Master|ARM.Build.0 = Master|ARM
+		{9A513B19-3E02-41BF-8968-58BC58B0A6B3}.Master|ARM.Deploy.0 = Master|ARM
+		{9A513B19-3E02-41BF-8968-58BC58B0A6B3}.Master|x86.ActiveCfg = Master|x86
+		{9A513B19-3E02-41BF-8968-58BC58B0A6B3}.Master|x86.Build.0 = Master|x86
+		{9A513B19-3E02-41BF-8968-58BC58B0A6B3}.Master|x86.Deploy.0 = Master|x86
+		{9A513B19-3E02-41BF-8968-58BC58B0A6B3}.Release|ARM.ActiveCfg = Release|ARM
+		{9A513B19-3E02-41BF-8968-58BC58B0A6B3}.Release|ARM.Build.0 = Release|ARM
+		{9A513B19-3E02-41BF-8968-58BC58B0A6B3}.Release|ARM.Deploy.0 = Release|ARM
+		{9A513B19-3E02-41BF-8968-58BC58B0A6B3}.Release|x86.ActiveCfg = Release|x86
+		{9A513B19-3E02-41BF-8968-58BC58B0A6B3}.Release|x86.Build.0 = Release|x86
+		{9A513B19-3E02-41BF-8968-58BC58B0A6B3}.Release|x86.Deploy.0 = Release|x86
+		{868B923C-02F0-4A30-8DAC-EF535B925512}.Debug|ARM.ActiveCfg = Debug|ARM
+		{868B923C-02F0-4A30-8DAC-EF535B925512}.Debug|ARM.Build.0 = Debug|ARM
+		{868B923C-02F0-4A30-8DAC-EF535B925512}.Debug|x86.ActiveCfg = Debug|x86
+		{868B923C-02F0-4A30-8DAC-EF535B925512}.Debug|x86.Build.0 = Debug|x86
+		{868B923C-02F0-4A30-8DAC-EF535B925512}.Master|ARM.ActiveCfg = Master|ARM
+		{868B923C-02F0-4A30-8DAC-EF535B925512}.Master|ARM.Build.0 = Master|ARM
+		{868B923C-02F0-4A30-8DAC-EF535B925512}.Master|x86.ActiveCfg = Master|x86
+		{868B923C-02F0-4A30-8DAC-EF535B925512}.Master|x86.Build.0 = Master|x86
+		{868B923C-02F0-4A30-8DAC-EF535B925512}.Release|ARM.ActiveCfg = Release|ARM
+		{868B923C-02F0-4A30-8DAC-EF535B925512}.Release|ARM.Build.0 = Release|ARM
+		{868B923C-02F0-4A30-8DAC-EF535B925512}.Release|x86.ActiveCfg = Release|x86
+		{868B923C-02F0-4A30-8DAC-EF535B925512}.Release|x86.Build.0 = Release|x86
+		{ADFB0A45-634B-4F18-978D-8A14B327DF9B}.Debug|ARM.ActiveCfg = Debug|ARM
+		{ADFB0A45-634B-4F18-978D-8A14B327DF9B}.Debug|ARM.Build.0 = Debug|ARM
+		{ADFB0A45-634B-4F18-978D-8A14B327DF9B}.Debug|x86.ActiveCfg = Debug|x86
+		{ADFB0A45-634B-4F18-978D-8A14B327DF9B}.Debug|x86.Build.0 = Debug|x86
+		{ADFB0A45-634B-4F18-978D-8A14B327DF9B}.Master|ARM.ActiveCfg = Master|ARM
+		{ADFB0A45-634B-4F18-978D-8A14B327DF9B}.Master|ARM.Build.0 = Master|ARM
+		{ADFB0A45-634B-4F18-978D-8A14B327DF9B}.Master|x86.ActiveCfg = Master|x86
+		{ADFB0A45-634B-4F18-978D-8A14B327DF9B}.Master|x86.Build.0 = Master|x86
+		{ADFB0A45-634B-4F18-978D-8A14B327DF9B}.Release|ARM.ActiveCfg = Release|ARM
+		{ADFB0A45-634B-4F18-978D-8A14B327DF9B}.Release|ARM.Build.0 = Release|ARM
+		{ADFB0A45-634B-4F18-978D-8A14B327DF9B}.Release|x86.ActiveCfg = Release|x86
+		{ADFB0A45-634B-4F18-978D-8A14B327DF9B}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,33 +1,56 @@
 Initialize engine version: 5.3.4f1 (fdbb5133b820)
 GfxDevice: creating device client; threaded=1
 Direct3D:
-    Version:  Direct3D 9.0c [nvd3dum.dll 10.18.13.6451]
-    Renderer: NVIDIA GeForce GTX 670
+    Version:  Direct3D 9.0c [nvd3dum.dll 10.18.13.5362]
+    Renderer: NVIDIA Quadro K3100M
     Vendor:   NVIDIA
-    VRAM:     1989 MB (via DXGI)
+    VRAM:     3072 MB (via DXGI)
     Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=0 INTZ=1 NULL=1 RESZ=0 SlowINTZ=0
 Begin MonoManager ReloadAssembly
-Platform assembly: E:\Development\Git\Unity Apps\TappyPlane\Builds\Windows\plane_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading E:\Development\Git\Unity Apps\TappyPlane\Builds\Windows\plane_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: E:\Development\Git\Unity Apps\TappyPlane\Builds\Windows\plane_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading E:\Development\Git\Unity Apps\TappyPlane\Builds\Windows\plane_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: E:\Development\Git\Unity Apps\TappyPlane\Builds\Windows\plane_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading E:\Development\Git\Unity Apps\TappyPlane\Builds\Windows\plane_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: E:\Development\Git\Unity Apps\TappyPlane\Builds\Windows\plane_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading E:\Development\Git\Unity Apps\TappyPlane\Builds\Windows\plane_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: E:\Development\Git\Unity Apps\TappyPlane\Builds\Windows\plane_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading E:\Development\Git\Unity Apps\TappyPlane\Builds\Windows\plane_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: E:\Development\Git\Unity Apps\TappyPlane\Builds\Windows\plane_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading E:\Development\Git\Unity Apps\TappyPlane\Builds\Windows\plane_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-- Completed reload, in  0.096 seconds
-Platform assembly: E:\Development\Git\Unity Apps\TappyPlane\Builds\Windows\plane_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: E:\Development\Git\Unity Apps\TappyPlane\Builds\Windows\plane_Data\Managed\System.dll (this message is harmless)
-desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+Platform assembly: D:\Development\TappyPlane\Builds\Windows\plane_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\Development\TappyPlane\Builds\Windows\plane_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\Development\TappyPlane\Builds\Windows\plane_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\Development\TappyPlane\Builds\Windows\plane_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\Development\TappyPlane\Builds\Windows\plane_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\Development\TappyPlane\Builds\Windows\plane_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\Development\TappyPlane\Builds\Windows\plane_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\Development\TappyPlane\Builds\Windows\plane_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\Development\TappyPlane\Builds\Windows\plane_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\Development\TappyPlane\Builds\Windows\plane_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\Development\TappyPlane\Builds\Windows\plane_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\Development\TappyPlane\Builds\Windows\plane_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.050 seconds
+Platform assembly: D:\Development\TappyPlane\Builds\Windows\plane_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\Development\TappyPlane\Builds\Windows\plane_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 3840x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 0.829440 ms
-Setting up 3 worker threads for Enlighten.
-  Thread -> id: 31fc -> priority: 1 
-  Thread -> id: 216c -> priority: 1 
-  Thread -> id: 550 -> priority: 1 
+UnloadTime: 0.677781 ms
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.345543 ms
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 201.
+Total: 0.153954 ms (FindLiveObjects: 0.018246 ms CreateObjectMapping: 0.011023 ms MarkObjects: 0.120122 ms  DeleteObjects: 0.003801 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.634826 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 201.
+Total: 0.121263 ms (FindLiveObjects: 0.009123 ms CreateObjectMapping: 0.009123 ms MarkObjects: 0.100355 ms  DeleteObjects: 0.002660 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.328437 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 201.
+Total: 0.146732 ms (FindLiveObjects: 0.012924 ms CreateObjectMapping: 0.009883 ms MarkObjects: 0.118982 ms  DeleteObjects: 0.003801 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.274457 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 201.
+Total: 0.144071 ms (FindLiveObjects: 0.012924 ms CreateObjectMapping: 0.009123 ms MarkObjects: 0.117081 ms  DeleteObjects: 0.003421 ms)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 17e8 -> priority: 1 
+  Thread -> id: 17d8 -> priority: 1 
