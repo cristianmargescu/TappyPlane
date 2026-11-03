@@ -1,0 +1,370 @@
+:root {
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #f3f6ff;
+  background: #101829;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  background:
+    radial-gradient(ellipse at 16% 12%, rgb(64 113 167 / 20%), transparent 30rem),
+    radial-gradient(ellipse at 88% 82%, rgb(65 121 132 / 14%), transparent 26rem),
+    #101829;
+}
+
+button {
+  font: inherit;
+}
+
+.app-shell {
+  width: min(100% - 40px, 1120px);
+  margin: 0 auto;
+  padding: 38px 0 24px;
+}
+
+.masthead,
+.brand,
+.status-pill,
+.stage-heading,
+.stage-footer,
+.page-footer {
+  display: flex;
+  align-items: center;
+}
+
+.masthead {
+  justify-content: space-between;
+  margin-bottom: 26px;
+}
+
+.brand {
+  gap: 13px;
+}
+
+.brand-mark {
+  display: grid;
+  width: 48px;
+  height: 48px;
+  place-items: center;
+  border: 1px solid rgb(255 255 255 / 14%);
+  border-radius: 15px;
+  background: linear-gradient(145deg, #5fd6c1, #4a9ed6);
+  box-shadow: 0 8px 26px rgb(64 170 188 / 24%);
+  color: #10233a;
+  font-size: 15px;
+  font-weight: 900;
+  letter-spacing: -0.07em;
+}
+
+.brand h1,
+.stage-heading h2,
+.tip-card h2 {
+  margin: 0;
+}
+
+.brand h1 {
+  font-size: 23px;
+  letter-spacing: -0.04em;
+}
+
+.eyebrow {
+  margin: 0 0 5px;
+  color: #98a8c0;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.15em;
+}
+
+.brand .eyebrow {
+  color: #72d9c7;
+}
+
+.status-pill {
+  gap: 9px;
+  padding: 10px 14px;
+  border: 1px solid rgb(255 255 255 / 10%);
+  border-radius: 999px;
+  background: rgb(255 255 255 / 4%);
+  color: #c4cfdf;
+  font-size: 12px;
+}
+
+.status-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #68dfbb;
+  box-shadow: 0 0 12px rgb(104 223 187 / 70%);
+}
+
+.game-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 258px;
+  align-items: stretch;
+  gap: 18px;
+}
+
+.game-card,
+.score-card,
+.tip-card {
+  overflow: hidden;
+  border: 1px solid rgb(255 255 255 / 10%);
+  border-radius: 21px;
+  background: #1a2639;
+  box-shadow: 0 18px 50px rgb(0 0 0 / 22%);
+}
+
+.game-card {
+  padding: 18px;
+}
+
+.stage-heading {
+  justify-content: space-between;
+  padding: 2px 3px 15px;
+  color: #19263a;
+}
+
+.stage-heading .eyebrow {
+  color: #75849a;
+}
+
+.stage-heading h2 {
+  color: #f4f7fb;
+  font-size: 17px;
+  letter-spacing: -0.025em;
+}
+
+.stage-badge {
+  padding: 7px 9px;
+  border: 1px solid rgb(98 221 195 / 26%);
+  border-radius: 8px;
+  color: #79ddc9;
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+}
+
+.game-stage {
+  width: 100%;
+  overflow: hidden;
+  aspect-ratio: 5 / 3;
+  border: 1px solid rgb(255 255 255 / 12%);
+  border-radius: 13px;
+  background: #d7edf7;
+  touch-action: manipulation;
+}
+
+.game-stage canvas {
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.stage-footer {
+  justify-content: center;
+  gap: 10px;
+  padding-top: 15px;
+  color: #a7b3c5;
+  font-size: 11px;
+}
+
+kbd {
+  padding: 4px 7px;
+  border: 1px solid rgb(255 255 255 / 17%);
+  border-radius: 6px;
+  background: #26354b;
+  color: #e8eef8;
+  font-size: 9px;
+  font-weight: 800;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.score-card,
+.tip-card {
+  padding: 21px;
+}
+
+.score-card {
+  background:
+    radial-gradient(circle at 100% 0, rgb(82 220 189 / 13%), transparent 9rem),
+    #1a2639;
+}
+
+.score-value {
+  margin: 14px 0 18px;
+  color: #f8fbff;
+  font-size: 58px;
+  font-weight: 800;
+  letter-spacing: -0.08em;
+  line-height: 1;
+}
+
+.best-score {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 13px 0 18px;
+  border-top: 1px solid rgb(255 255 255 / 9%);
+  color: #91a1b7;
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+}
+
+.best-score strong {
+  color: #78ddc9;
+  font-size: 15px;
+  letter-spacing: 0;
+}
+
+.restart-button {
+  width: 100%;
+  min-height: 43px;
+  border: 0;
+  border-radius: 11px;
+  background: #65d8c2;
+  color: #11253a;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 800;
+  transition: background 140ms ease, transform 140ms ease;
+}
+
+.restart-button:hover {
+  transform: translateY(-1px);
+  background: #83e6d2;
+}
+
+.restart-button:focus-visible {
+  outline: 3px solid #fff;
+  outline-offset: 3px;
+}
+
+.tip-card {
+  flex: 1;
+  background: rgb(255 255 255 / 3%);
+  box-shadow: none;
+}
+
+.tip-card h2 {
+  margin: 16px 0 9px;
+  color: #eaf0f9;
+  font-size: 17px;
+  letter-spacing: -0.03em;
+}
+
+.tip-card > p:not(.eyebrow) {
+  margin: 0;
+  color: #a6b3c5;
+  font-size: 12px;
+  line-height: 1.65;
+}
+
+.tip-rule {
+  height: 1px;
+  margin: 18px 0 13px;
+  background: rgb(255 255 255 / 9%);
+}
+
+.tip-card .tip-footnote {
+  color: #71d7c3 !important;
+  font-size: 10px !important;
+}
+
+.page-footer {
+  justify-content: space-between;
+  padding: 22px 4px 0;
+  color: #74839b;
+  font-size: 10px;
+}
+
+@media (max-width: 850px) {
+  .game-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .sidebar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 560px) {
+  .app-shell {
+    width: min(100% - 24px, 520px);
+    padding-top: 22px;
+  }
+
+  .masthead {
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 18px;
+  }
+
+  .brand-mark {
+    width: 42px;
+    height: 42px;
+  }
+
+  .brand h1 {
+    font-size: 20px;
+  }
+
+  .status-pill {
+    padding: 9px 10px;
+    font-size: 10px;
+  }
+
+  .game-card {
+    padding: 11px;
+  }
+
+  .stage-heading h2 {
+    font-size: 15px;
+  }
+
+  .stage-badge {
+    font-size: 8px;
+  }
+
+  .stage-footer {
+    gap: 6px;
+    font-size: 9px;
+  }
+
+  .sidebar {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .score-card,
+  .tip-card {
+    padding: 18px;
+  }
+
+  .score-value {
+    margin: 10px 0 14px;
+    font-size: 48px;
+  }
+
+  .page-footer {
+    gap: 12px;
+    font-size: 9px;
+  }
+}
