@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#101829" />
+    <meta
+      name="description"
+      content="Take a tiny plane through a sky full of rocks in this browser arcade game."
+    />
+    <title>Tappy Plane - Arcade Flight</title>
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="masthead">
+        <div class="brand">
+          <div class="brand-mark" aria-hidden="true">TP</div>
+          <div>
+            <p class="eyebrow">ARCADE FLIGHT</p>
+            <h1>Tappy Plane</h1>
+          </div>
+        </div>
+        <div class="status-pill">
+          <span class="status-dot" aria-hidden="true"></span>
+          <span id="game-status" aria-live="polite">Ready for takeoff</span>
+        </div>
+      </header>
+
+      <section class="game-layout" aria-label="Tappy Plane game">
+        <div class="game-card">
+          <div class="stage-heading">
+            <div>
+              <p class="eyebrow">YOUR FLIGHT DECK</p>
+              <h2>Keep it airborne</h2>
+            </div>
+            <span class="stage-badge">ENDLESS RUN</span>
+          </div>
+          <div id="game" class="game-stage" aria-label="Game board"></div>
+          <div class="stage-footer">
+            <span class="key-hint"><kbd>SPACE</kbd> flap</span>
+            <span class="pointer-hint">or click anywhere on the sky</span>
+          </div>
+        </div>
+
+        <aside class="sidebar">
+          <section class="score-card" aria-label="Flight score">
+            <p class="eyebrow">CURRENT FLIGHT</p>
+            <p class="score-value" id="score-value">0</p>
+            <div class="best-score">
+              <span>PERSONAL BEST</span>
+              <strong id="best-value">0</strong>
+            </div>
+            <button id="restart" class="restart-button" type="button">
+              Restart flight
+            </button>
+          </section>
+
+          <section class="tip-card">
+            <p class="eyebrow">FLIGHT NOTES</p>
+            <h2>Small taps. Big sky.</h2>
+            <p>Each flap lifts you. Let gravity do the rest, and thread the plane through the gaps.</p>
+            <div class="tip-rule"></div>
+            <p class="tip-footnote">Your best run is saved on this device.</p>
+          </section>
+        </aside>
+      </section>
+
+      <footer class="page-footer">
+        <span>Made for the browser. No install needed.</span>
+        <span>One more flight?</span>
+      </footer>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
