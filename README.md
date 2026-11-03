@@ -6,7 +6,7 @@ The legacy Unity and UWP project files are preserved in the repository, but are 
 
 ## Run locally
 
-Requires Node.js 26 LTS or newer.
+Requires Node.js 20.19+ or 22.12+.
 
 ```powershell
 npm install
